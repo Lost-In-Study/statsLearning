@@ -1,0 +1,20 @@
+1.
+2. 
+(a) 1-1/n
+(b) 1-1/n
+(c) from 1 to n, every time the probablity that the jth observation is not in the sample is 1-1/n, iterate n times, the it's (1-1/n)^n
+(d) 1-(1-1/5)^5
+(e) 1-(1-1/100)^100
+(f) 1-(1-1/1000)^1000
+(g)
+(h)
+
+3. 
+(a) split the dataset into k non-overlapped same-sized sets, each set as the validation set and the remaining as the training set, 
+then repeat k times, average k mse.
+(b) 
+i  compared to validation set, k-fold more complex, but validation set tend to overestimate the error
+ii to LOOCV, loocv requires more compution, and higher variance, lower bias
+
+4. 
+bootstrap: resampling the data b times, fit the model b times, average the RMSE
